@@ -1,0 +1,157 @@
+@import url(reset.css);
+
+/*--------------------------------------------*/
+
+
+/*--------------------
+Header
+---------------------*/
+
+* {
+	transition: all .1s ease-in;
+}
+body {
+	font-family: sans-serif;
+	margin: 20px;
+}
+header {
+	max-width: 100%;
+	background-color: #4a4f56;
+	color: #eb7e7f;
+}
+.header_box {
+	padding: 20px;
+	max-width: 660px;
+	margin: 0 auto;
+	text-align: center;
+}
+h1 {
+	margin: 20px;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+/*--------------
+/Header
+---------------*/
+
+
+/*---------------------------
+
+Main
+bg item 1 #88839e 2 #7a7593 3(active) #625e77 
+---------------------------*/
+
+main {
+	background-color: #3b3f45;
+	padding-top: 50px;
+}
+.main_box {
+	max-width: 660px;
+	margin: 0 auto;
+}
+
+/****************
+/Container
+*****************/
+
+span {
+	color: #fff;
+	font-size: 20px;
+	padding: 0 5px;
+}
+input[type="checkbox"] {
+	width: 20px;
+	height: 20px;
+}
+.label-text:after {
+	content: "(for the next lessons about CSS)";
+	color: #c6bcbc;
+	margin-left: 10px;
+}
+.label-text_2:after {
+	content: "(for more CSS manipulations)";
+	color: #c6bcbc;
+	margin-left: 10px;
+}
+.label-text_3:after {
+	content: "(because they are awesome)";
+	color: #c6bcbc;
+	margin-left: 10px;
+}
+.label-text_4:after {
+	content: "(hm.. they always disappear)";
+	color: #c6bcbc;
+	margin-left: 10px;
+}
+.label-text_5:after {
+	content: " ";
+	color: #c6bcbc;
+}
+.label-text_6:after {
+	content: "(for my friends)";
+	color: #c6bcbc;
+	margin-left: 10px;
+}
+label {
+	padding: 20px;
+	cursor: pointer;
+	display: block;
+}
+li {
+	border: 3px solid #88839e;
+	border-left: 0;
+	border-right: 0;
+	vertical-align: middle;
+}
+li:hover {
+	border: 3px solid #fff;
+	border-left: 0;
+	border-right: 0;
+}
+.label-text:before {
+	text-decoration: none;
+}
+:checked + span {
+	text-decoration: line-through;
+	color: #c6bcbc;
+}
+:checked + span:after {
+	text-decoration: line-through;
+	color: #c6bcbc;
+}
+li {
+	background-color: #88839e;
+	max-width: 100%;
+}
+li:hover {
+	background-color: #625e77;
+}
+li:active {
+	background-color: #eb7e7f;
+}
+.item_2 {
+	background: #7a7593;
+}
+
+/**--------------------
+Footer
+----------------------*/
+
+footer {
+	max-width: 100%;
+	background: #3b3f45;
+	padding: 50px;
+}
+.foot_box {
+	max-width: 660px;
+	margin: 0 auto;
+	background-color: #4a4f56;
+	color: #eb7e7f;
+	font-size: 20px;
+	font-weight: bold;
+}
+footer p {
+	padding: 45px;
+	text-align: center
+}
